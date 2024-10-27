@@ -1,8 +1,6 @@
-package S.badcase;
+package S.goodcase;
 
 import java.util.List;
-
-import static java.util.UUID.randomUUID;
 
 public class Order {
 
@@ -18,19 +16,8 @@ public class Order {
         products.add(product);
     }
 
-    private int getTotalOrderPrice() {
+    public int getTotalOrderPrice() {
         return 0;
-    }
-
-    public String generateInvoice() {
-        var tax = 0.5;
-        if (getTotalOrderPrice() < 100) {
-            tax += 10;
-        } else {
-            tax += 20;
-        }
-
-        return tax + randomUUID().toString();
     }
 
 }
