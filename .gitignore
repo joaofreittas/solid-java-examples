@@ -4,7 +4,7 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 
-solid-java.iml
+solid-java-examples.iml
 
 ### Eclipse ###
 .apt_generated
